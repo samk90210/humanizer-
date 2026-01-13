@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My GitHub Website</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Natural Writing Refiner</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-    <header>
-        <h1>Welcome 👋</h1>
-        <p>This is my GitHub Pages website</p>
-        <button id="changeTextBtn">Click me</button>
-    </header>
+  <main class="app">
+    <h1>Natural Writing Refiner</h1>
+    <p class="hint">
+      Rewrite for clarity, variation, and natural flow.
+    </p>
 
-    <main>
-        <section class="card">
-            <h2>About</h2>
-            <p id="aboutText">
-                This is a simple HTML, CSS, and JavaScript project hosted on GitHub.
-            </p>
-        </section>
-    </main>
+    <textarea id="input" placeholder="Paste your text here..."></textarea>
 
-    <footer>
-        <p>© 2026 Your Name</p>
-    </footer>
+    <button id="rewrite">Rewrite Naturally</button>
 
-    <script src="script.js"></script>
+    <textarea id="output" placeholder="Rewritten text appears here..." readonly></textarea>
+  </main>
+
+  <footer>
+    <p>Focus: clarity, originality, and flow ✍️</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
